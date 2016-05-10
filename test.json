@@ -1,0 +1,82 @@
+{
+  "userModification" : false,
+  "constraints" : [ {
+    "objectType" : "SpeedRestriction",
+    "id" : "8708F3F283124AA9B2035B3E92F5321E-P",
+    "sourceType" : "EXTERNAL",
+    "correlationId" : "8708F3F283124AA9B2035B3E92F5321E",
+    "sourceTime" : "2015-11-30T14:42:56.856Z",
+    "effectiveTime" : "1448894564000-1464670740000",
+    "trackLimits" : [ {
+      "fromLocation" : {
+        "milepost" : "600.350057",
+        "track" : "MAIN 2",
+        "district" : "NEEDLES"
+      },
+      "toLocation" : {
+        "milepost" : "592.807101",
+        "track" : "MAIN 2",
+        "district" : "NEEDLES"
+      }
+    } ],
+    "includes" : {
+      "type" : "ANY",
+      "criteria" : [ {
+        "type" : "TRAIN_GROUP",
+        "operation" : "EQUALS",
+        "value" : "A"
+      } ]
+    },
+    "direction" : "UNDEFINED",
+    "enabled" : true,
+    "planThrough" : false,
+    "plannerOnly" : false,
+    "customType" : "S",
+    "properties" : {
+      "id" : "b83d7c32-88e4-973e-a0eb-4b117a695d74",
+      "timeStamp" : "1448894576857",
+      "sentDateTime" : "2015-11-30T14:42:56.856Z",
+      "messageType" : "SPDTAG"
+    },
+    "speedLimit" : 25
+  }, {
+    "objectType" : "SpeedRestriction",
+    "id" : "8708F3F283124AA9B2035B3E92F5321E-F",
+    "sourceType" : "EXTERNAL",
+    "correlationId" : "8708F3F283124AA9B2035B3E92F5321E",
+    "sourceTime" : "2015-11-30T14:42:56.856Z",
+    "effectiveTime" : "1448894564000-1464670740000",
+    "trackLimits" : [ {
+      "fromLocation" : {
+        "milepost" : "600.350057",
+        "track" : "MAIN 2",
+        "district" : "NEEDLES"
+      },
+      "toLocation" : {
+        "milepost" : "592.807101",
+        "track" : "MAIN 2",
+        "district" : "NEEDLES"
+      }
+    } ],
+    "excludes" : {
+      "type" : "ANY",
+      "criteria" : [ {
+        "type" : "TRAIN_GROUP",
+        "operation" : "EQUALS",
+        "value" : "A"
+      } ]
+    },
+    "direction" : "UNDEFINED",
+    "enabled" : true,
+    "planThrough" : false,
+    "plannerOnly" : false,
+    "customType" : "S",
+    "properties" : {
+      "id" : "b83d7c32-88e4-973e-a0eb-4b117a695d74",
+      "timeStamp" : "1448894576857",
+      "sentDateTime" : "2015-11-30T14:42:56.856Z",
+      "messageType" : "SPDTAG"
+    },
+    "speedLimit" : 24
+  } ]
+}
