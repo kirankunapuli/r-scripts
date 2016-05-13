@@ -1,0 +1,61 @@
+{
+      "activities": [
+        {
+          "id": 1,
+          "opsta": "WINSLOW",
+          "arrivalTime": "2015-11-30T18:00:00.000Z",
+          "departureTime": "2015-11-30T18:00:00.000Z",
+          "earliestDepartureTime": "2015-11-30T16:31:17.000Z",
+          "types": ["ORIGINATE", "CHANGE_CREW", "INSPECTION"],
+          "locations": [
+            {
+              "precedence": 0,
+              "selection": "USER",
+              "arrivalLocation": {
+                "milepost": "287.24150",
+                "track": "MAIN 3",
+                "district": "SELIGMAN"
+              },
+              "arrivalDirection": "UNDEFINED"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "opsta": "BELEN",
+          "arrivalTime": "2015-12-01T00:35:00.000Z",
+          "departureTime": "2015-12-01T01:50:00.000Z",
+          "types": ["CHANGE_CREW", "FUEL", "INSPECTION"],
+          "locations": []
+        },
+        {
+          "id": 3,
+          "opsta": "CLOVIS",
+          "arrivalTime": "2015-12-01T07:40:00.000Z",
+          "departureTime": "2015-12-01T08:20:00.000Z",
+          "types": ["CHANGE_CREW"],
+          "locations": []
+        },
+        {
+          "id": 4,
+          "opsta": "AMASYARD",
+          "arrivalTime": "2015-12-01T10:50:00.000Z",
+          "departureTime": "2015-12-01T11:25:00.000Z",
+          "types": ["TERMINATE", "CHANGE_CREW"],
+          "locations": [
+            {
+              "precedence": 0,
+              "selection": "USER",
+              "arrivalLocation": {
+                "milepost": "503.23100",
+                "track": "MAIN 2",
+                "district": "PANHANDLE"
+              },
+              "arrivalDirection": "UNDEFINED"
+            }
+          ]
+        }
+      ]
+    
+  
+}
