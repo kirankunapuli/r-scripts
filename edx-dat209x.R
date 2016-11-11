@@ -64,3 +64,17 @@ for (i in 1:length(my.data[, 1])) {
     break
   }
 }
+
+#exercise 3.3
+edf = as.data.frame(matrix(rnorm(1000), nrow = 10, ncol = 100000))
+time1 = as.numeric(Sys.time())
+for (i in 1:100000) {
+  mean1[i] = mean(edf[, i])
+}
+time2 = as.numeric(Sys.time())
+time2 - time1
+time3 = as.numeric(Sys.time())
+mean2 = sapply(edf, mean)
+time4 = as.numeric(Sys.time())
+time4 - time3
+(time2 - time1) / (time4 - time3) #runtime factor
